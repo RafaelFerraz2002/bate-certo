@@ -25,7 +25,7 @@ Um ADR regista **uma decisão de arquitetura**: o contexto, as opções que fora
 ```markdown
 # ADR-NNN: Título
 
-- **Estado:** Proposto | Aceite | Substituído por ADR-MMM
+- **Estado:** Proposto | Aceite | Substitui ADR-NNN | Substituído por ADR-MMM
 - **Data:** AAAA-MM-DD
 - **Ticket:** #NN
 - **Requisitos:** IDs da base Requisitos (ex.: CB-03)

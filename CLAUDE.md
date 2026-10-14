@@ -6,7 +6,7 @@ Plataforma de conciliações contabilísticas: **bancária**, **contas correntes
 
 - **Spec do arranque:** `docs/superpowers/specs/2026-10-14-arranque-bate-certo-design.md`.
 - **Decisões de arquitetura:** `docs/adr/`. Começa pelo `docs/adr/README.md`. **Não contrariar um ADR aceite**; se algo pedir uma mudança, propõe-se um ADR novo.
-- **Tickets:** GitHub Issues + Project "Bate Certo" (`gh project view 3 --owner RafaelFerraz2002`). Épicos = issues com a label `epic` (`[E0]`…`[E5]`); as fases são as milestones M0–M5.
+- **Tickets:** GitHub Issues + Project "Bate Certo" (`gh project view 4 --owner RafaelFerraz2002`). Épicos = issues com a label `epic` (`[E0]`…`[E5]`); as fases são as milestones M0–M5.
 - **Requisitos funcionais, glossário, manual e diário:** no Notion. Os IDs dos requisitos (`CB-`, `CT-`, `EF-`, `GL-`) são referidos na secção "Requisitos" de cada ticket.
 
 ## Como se trabalha
@@ -18,7 +18,7 @@ Plataforma de conciliações contabilísticas: **bancária**, **contas correntes
 5. Ao começar um ticket, passa para "Em curso"; ao abrir o PR, para "Em revisão". Só o utilizador aprova o merge.
    Estados possíveis: `Backlog`, `Pronto`, `Em curso`, `Em revisão`, `Feito`.
    ```sh
-   gh project item-edit 3 --owner RafaelFerraz2002 --url <url-do-issue> --field Status --value "Em curso"
+   gh project item-edit 4 --owner RafaelFerraz2002 --url <url-do-issue> --field Status --value "Em curso"
    ```
 6. **Nunca** fazer push direto para `main`, force push, nem merge sem pedido explícito.
 7. Uma funcionalidade só está "Feita" quando a sua página do **Manual da app** no Notion estiver escrita.
