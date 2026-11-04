@@ -18,7 +18,7 @@ Um ADR regista **uma decisão de arquitetura**: o contexto, as opções que fora
 | 002 | Alojamento e servidor | Por escrever | [#11](https://github.com/RafaelFerraz2002/bate-certo/issues/11) |
 | 003 | Multi-gabinete e multi-empresa | Por escrever | [#12](https://github.com/RafaelFerraz2002/bate-certo/issues/12) |
 | 004 | Proteção de dados, RGPD e sigilo profissional | Por escrever | [#13](https://github.com/RafaelFerraz2002/bate-certo/issues/13) |
-| 005 | Processo de desenvolvimento e testes | Por escrever | [#14](https://github.com/RafaelFerraz2002/bate-certo/issues/14) |
+| [005](005-processo-testes.md) | Processo de desenvolvimento e testes | Aceite | [#14](https://github.com/RafaelFerraz2002/bate-certo/issues/14) |
 
 ## Modelo
 
