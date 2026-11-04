@@ -139,6 +139,11 @@ Uma regra que vive num teste não depende de ninguém se lembrar dela.
 | Ecrã ou fluxo crítico novo ou alterado | O teste ponta a ponta desse fluxo. |
 | Só documentação ou configuração sem código | Não precisa. |
 
+**Cobertura:**
+- Pelo menos **80% das linhas alteradas** no PR têm de estar cobertas por testes. O CI compara com o `main`, e o check falha abaixo disso. O valor global aparece no PR, só como informação.
+- Ficam fora da conta: código gerado, migrações, ficheiros de configuração, e ecrãs e componentes só visuais (cobertos pelos testes ponta a ponta).
+- Os testes das regras de negócio e da separação dos dados não dependem da percentagem: têm de existir.
+
 **Como se escrevem:**
 - Nas regras de negócio e nas correções de bugs, **o teste escreve-se primeiro** e vê-se falhar antes de escrever o código.
 - Nunca se simula a base de dados nem a nossa própria lógica. Só se simula o que é externo e não tem substituto local, e apenas na fronteira.
