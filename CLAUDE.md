@@ -6,6 +6,7 @@ Plataforma de conciliações contabilísticas: **bancária**, **contas correntes
 
 - **Spec do arranque:** `docs/superpowers/specs/2026-10-14-arranque-bate-certo-design.md`.
 - **Decisões de arquitetura:** `docs/adr/`. Começa pelo `docs/adr/README.md`. **Não contrariar um ADR aceite**; se algo pedir uma mudança, propõe-se um ADR novo.
+- **Modelo de domínio e regras de negócio (R1, R2…):** `docs/modelo-dominio.md`. Os testes de uma regra levam o seu identificador no nome (ADR-005).
 - **Tickets:** GitHub Issues + Project "Bate Certo" (`gh project view 4 --owner RafaelFerraz2002`). Épicos = issues com a label `epic` (`[E0]`…`[E5]`); as fases são as milestones M0–M5.
 - **Requisitos funcionais, glossário, manual e diário:** no Notion. Os IDs dos requisitos (`CB-`, `CT-`, `EF-`, `GL-`) são referidos na secção "Requisitos" de cada ticket.
 
