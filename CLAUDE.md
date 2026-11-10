@@ -21,8 +21,9 @@ Plataforma de conciliações contabilísticas: **bancária**, **contas correntes
    ```sh
    gh project item-edit 4 --owner RafaelFerraz2002 --url <url-do-issue> --field Status --value "Em curso"
    ```
-6. **Nunca** fazer push direto para `main`, force push, nem merge sem pedido explícito.
-7. Uma funcionalidade só está "Feita" quando a sua página do **Manual da app** no Notion estiver escrita.
+6. **Tickets sem código** (pesquisa, levantamento, páginas do Notion) não têm branch nem PR, e o resultado fica no Notion. Só fecham depois de o utilizador concordar, com um comentário que tem os links para as páginas e o que se decidiu. A entrada no Diário e os termos do Glossário fazem-se no mesmo dia. Se o ticket mudar alguma coisa no repositório, segue o fluxo normal, com PR.
+7. **Nunca** fazer push direto para `main`, force push, nem merge sem pedido explícito.
+8. Uma funcionalidade só está "Feita" quando a sua página do **Manual da app** no Notion estiver escrita.
 
 ## Regras que não se quebram
 
